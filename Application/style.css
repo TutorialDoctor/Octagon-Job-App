@@ -6,6 +6,16 @@
   //border: 1px solid red !important;
   width:100% !important;
 }
+
+.jumbotron{
+    opacity: .9;
+    color: #fff;
+    background: #000 url("http://www.siuecougars.com/sports/m-basebl/2016-17/photos/17042-183_redesignrotator.jpg");
+    width: 100%;
+    background-size: cover;
+    z-index:1;
+}
+
 .watch{
   border: 1px solid white
 }
