@@ -1,0 +1,70 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">     
+      <ul class="navbar-nav">
+        <li><a href="../index.html">
+        <img class="navbar-logo" src="http://baseball.doosan.com/img/doosan-logo-main-header.svg" alt="Logo"></a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Nisi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Suscipit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Officia</a>
+      </li>    
+    </ul>
+    </nav>
+  
+  <div class="container contact">
+  <div style="width:100%; margin:12px; padding:10%" class="container form-border">
+    <h1>Contact Form</h1>
+<form name="contactform" method="post" action="action.php">
+  <div class="form-group">
+    <label for="first_name">First Name</label>
+    <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="John">
+    <label for="last_name">Last Name</label>
+    <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="Doe">
+    <label for="zip">Zip Code</label>
+    <input type="text" class="form-control" name="zip" aria-describedby="emailHelp" placeholder="12345">
+    <label for="state">US State</label>
+  <select class="form-control" name=state id="sel1">
+    <option>Alabama</option>
+    <option>Alaska</option>
+    <option>Arizona</option>
+    <option>Arkansas</option>
+  </select>
+  </div><br>
+  
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div><br>
+  
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+  </div>
+  <button type="submit" href="#" value="Submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+    </div>
+  
+</body>
