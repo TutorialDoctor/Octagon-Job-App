@@ -2,20 +2,18 @@
 }
 
 .jumbotron{
-  background-color: #242424 !important;
+  background-color: #242424;
   //border: 1px solid red !important;
   width:100% !important;
+  opacity: .9;
+  color: #fff;
+  background: #000 url("http://www.siuecougars.com/sports/m-basebl/2016-17/photos/17042-183_redesignrotator.jpg");
+  width: 100%;
+  background-size: cover;
+  z-index:1;
+  border-radius: 0px !important;
 }
 
-.jumbotron{
-    opacity: .9;
-    color: #fff;
-    background: #000 url("http://www.siuecougars.com/sports/m-basebl/2016-17/photos/17042-183_redesignrotator.jpg");
-    width: 100%;
-    background-size: cover;
-    z-index:1;
-  border-radius: 0px !imporant;
-}
 
 .watch{
   border: 1px solid white
